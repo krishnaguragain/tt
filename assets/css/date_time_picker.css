@@ -768,14 +768,14 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 }
 .datepicker thead tr:first-child th.prev:before,
 .datepicker thead tr:first-child th.next:before {
-  font-family: 'fontello';
-  content: '\e9f2';
+  font-family: 'FontAwesome';
+  content: "\f061";
   font-size: 18px;
   font-weight:normal;
   font-style:normal;
 }
 .datepicker thead tr:first-child th.prev:before {
-  content: '\e9f1';
+    content: "\f060";
 }
 .bootstrap-timepicker {
   position: relative;
