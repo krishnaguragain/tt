@@ -1,1 +1,795 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"load",
+				"load_library	CI - Load Library"
+			],
+			[
+				"_",
+				"_post	CI - $_POST"
+			],
+			[
+				"defa",
+				"date_default_timezone_set"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"yuga",
+				"YugaCivilDays"
+			],
+			[
+				"sun",
+				"sun_value"
+			],
+			[
+				"ST",
+				"STAR_VALUE"
+			],
+			[
+				"aha",
+				"aharanga"
+			],
+			[
+				"bcs",
+				"bcsub"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"co",
+				"constant"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"top",
+				"border-top"
+			],
+			[
+				"art",
+				"article	Tag"
+			],
+			[
+				"im-",
+				"im-colonel"
+			],
+			[
+				"Optimi",
+				"optimization"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"site",
+				"site_url"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"pkg_c",
+				"pkg_captain"
+			],
+			[
+				"Tr",
+				"TRUE"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"po",
+				"post"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"end",
+				"end_ahar"
+			],
+			[
+				"st",
+				"start_ahar"
+			],
+			[
+				"las",
+				"last_key"
+			],
+			[
+				"month",
+				"month-1"
+			],
+			[
+				"array_k",
+				"array_keys"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"f",
+				"fun	function …"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 18578,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "search-page.html",
+			"settings":
+			{
+				"buffer_size": 12337,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 8835,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 488.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/UwAmp/www/tt",
+		"/C/UwAmp/www/tt/assets"
+	],
+	"file_history":
+	[
+		"/C/UwAmp/www/tt/assets/js/bootstrap-timepicker.js",
+		"/C/UwAmp/www/tt/assets/css/date_time_picker.css",
+		"/C/Users/Bibek/Desktop/prajun-dai/assets/css/style.css",
+		"/C/Users/Bibek/Desktop/prajun-dai/index.html",
+		"/A/framework/platform/vendor/src/Panchanga/Data/Details.php",
+		"/A/framework/platform/vendor/src/Panchanga/Math/Panchanga.php",
+		"/A/framework/platform/vendor/src/Panchanga/Planet/Planets.php",
+		"/A/framework/platform/applications/site_example/modules/test/controllers/Test_controller.php",
+		"/C/Users/Bibek/AppData/Roaming/Skype/My Skype Received Files/home.jsp",
+		"/C/Users/Bibek/Downloads/config.img",
+		"/A/framework/platform/vendor/src/Panchanga/Planet/Sun.php",
+		"/A/gurkhatech.com/platform/applications/gurkhatech_v1/modules/pricing/views/submit.php",
+		"/A/gurkhatech.com/platform/applications/gurkhatech_v1/modules/pricing/views/thankyou.php",
+		"/A/gurkhatech.com/platform/applications/gurkhatech_v1/modules/pricing/controllers/Pricing_controller.php",
+		"/A/gurkhatech.com/platform/applications/gurkhatech_v1/libraries/recaptachalib.php",
+		"/C/Users/Bibek/Downloads/ci_sessions-data (1).bin",
+		"/A/framework/platform/applications/site_example/modules/account/controllers/example.php",
+		"/A/framework/platform/applications/site_example/modules/account/controllers/Account_controller.php",
+		"/C/Users/Bibek/Desktop/rarreg.key",
+		"/C/Users/Bibek/Desktop/language.js",
+		"/C/Users/Bibek/Desktop/robots.txt",
+		"/A/framework/platform/applications/site_example/config/database.php",
+		"/A/framework/platform/applications/site_example/modules/account/contrrollers/Account_controller.php",
+		"/C/UwAmp/www/account/application/config/database.php",
+		"/C/UwAmp/www/account/application/config/config.php",
+		"/C/UwAmp/www/account/application/config/ion_auth.php",
+		"/C/UwAmp/www/calendar/my.php",
+		"/C/UwAmp/www/ajax/index.html",
+		"/C/UwAmp/www/ajax/pages/second.html",
+		"/C/UwAmp/www/account/.htaccess",
+		"/C/Users/Bibek/Desktop/portal/application/themes/default/common/client.signup.html",
+		"/C/Users/Bibek/Desktop/portal/application/themes/default/common/common.head.html",
+		"/C/Users/Bibek/Desktop/portal/application/themes/default/common/users.modal.html",
+		"/C/Users/Bibek/Desktop/portal/application/themes/default/client/login.html",
+		"/C/Users/Bibek/Desktop/style.css",
+		"/C/Users/Bibek/AppData/Local/Temp/fz3temp-1/login.html",
+		"/C/Users/Bibek/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/Bibek/AppData/Local/Temp/fz3temp-1/login 2.html",
+		"/C/Users/Bibek/Desktop/portal/application/controllers/admin/projects.php",
+		"/C/Users/Bibek/AppData/Local/Temp/fz3temp-1/main_menu_widget.php",
+		"/C/Users/Bibek/Desktop/portal/application/controllers/admin/project.php",
+		"/C/UwAmp/www/a3m/application/config/database.php",
+		"/C/UwAmp/www/a3m/.htaccess",
+		"/C/UwAmp/www/a3m/application/config/account/account.php",
+		"/C/UwAmp/www/a3m/index.php",
+		"/C/Users/Bibek/Desktop/portal/application/themes/default/common/index.html",
+		"/A/tax/platform/create.php",
+		"/A/tax/platform/run.php",
+		"/A/tax/www/config.php",
+		"/C/Users/Bibek/Desktop/up/inc/config.inc.php",
+		"/A/tax/platform/applications/admin_example/core/Base_Controller.php",
+		"/A/tax/platform/applications/admin_example/modules/login/controllers/Login_controller.php",
+		"/C/UwAmp/www/auth/application/config/database.php",
+		"/C/UwAmp/www/auth/application/config/config.php",
+		"/C/UwAmp/www/auth/index.php",
+		"/C/UwAmp/www/auth/.htaccess",
+		"/C/UwAmp/www/auth/application/config/flexi_auth.php",
+		"/C/Users/Bibek/Desktop/up/inc/functions.php",
+		"/A/tax/platform/applications/admin_example/core/Base_Authenticated_Controller.php",
+		"/A/tax/platform/applications/admin_example/helpers/MY_current_user_helper.php",
+		"/C/Users/Bibek/Desktop/up/inc/Uploaded.php",
+		"/C/Users/Bibek/AppData/Local/Temp/fz3temp-1/common.footer.html",
+		"/C/Users/Bibek/Desktop/work/email.html",
+		"/C/Users/Bibek/Desktop/portal/application/controllers/common/signup.php",
+		"/A/toyanath2/index.html",
+		"/A/toyanath2/assets/css/calendar.css",
+		"/C/Users/Bibek/Desktop/tt/calendar/nepali.datepicker.min.js",
+		"/C/Users/Bibek/Desktop/tt/calendar/index.html",
+		"/C/UwAmp/www/hospital/index.html",
+		"/C/UwAmp/www/hospital/app.manifest",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/C/UwAmp/www/hospital/server/server.php",
+		"/C/UwAmp/www/hospital/manifest.appcache",
+		"/C/UwAmp/www/calendar/nepali_calendar_class.php",
+		"/C/UwAmp/www/calendar/calendar.php",
+		"/C/Users/Bibek/Documents/GitHub/New folder/src/np/com/focusone/moco/cards/QueryResponse.java",
+		"/C/Users/Bibek/Documents/GitHub/New folder/src/np/com/focusone/moco/cards/ADSL.java",
+		"/C/Users/Bibek/Documents/GitHub/New folder/src/np/com/focusone/moco/password/Password.java",
+		"/C/Users/Bibek/Documents/GitHub/New folder/src/np/com/focusone/moco/model/TransactionHistoryModel.java",
+		"/C/Users/Bibek/Documents/GitHub/New folder/src/np/com/focusone/moco/cards/a.java",
+		"/C/Users/Bibek/Documents/GitHub/New folder/src/np/com/focusone/moco/cards/MyVoucherDetailActivity.java",
+		"/C/Users/Bibek/Documents/GitHub/New folder/src/np/com/focusone/moco/cards/Transaction.java",
+		"/C/Users/Bibek/Documents/GitHub/New folder/src/np/com/focusone/moco/cards/TransactionActivity.java",
+		"/C/Users/Bibek/Documents/GitHub/New folder/src/np/com/focusone/moco/cards/VoucherPaymentActivity.java",
+		"/A/toyanath2/assets/css/style.css",
+		"/C/Users/Bibek/Desktop/tt/solar/js/index.js",
+		"/C/UwAmp/www/angular/.htaccess",
+		"/C/UwAmp/www/angular/application/config/config.php",
+		"/C/UwAmp/www/angular/application/config/autoload.php",
+		"/C/UwAmp/www/angular/application/config/database.php",
+		"/C/Users/Bibek/Downloads/googleafe48583a9ab2f08.html",
+		"/C/Users/Bibek/AppData/Local/Temp/fz3temp-1/Base_Controller.php",
+		"/C/UwAmp/www/ss/surya_siddhanta.php",
+		"/A/framework/platform/vendor/src/Panchanga/Data/Planet.php",
+		"/A/framework/platform/vendor/src/Panchanga/Calculation/Nakshatra.php",
+		"/A/framework/platform/vendor/src/Panchanga/Calculation/Ahargana.php",
+		"/C/Users/Bibek/AppData/Roaming/Sublime Text 3/Packages/phpfmt/phpfmt.sublime-settings",
+		"/C/Users/Bibek/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/C/Users/Bibek/AppData/Roaming/Sublime Text 3/Packages/User/phpfmt.sublime-settings",
+		"/C/Users/Bibek/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/A/store/index.php",
+		"/A/store/config/settings.inc.php",
+		"/A/store/.htaccess",
+		"/A/store/themes/pt_titanshop/search.tpl",
+		"/A/store/themes/pt_titanshop/index.tpl",
+		"/A/store/themes/pt_titanshop/header.tpl",
+		"/A/store/config/config.inc.php",
+		"/A/store/init.php",
+		"/A/Jyotish/Panchanga/Panchanga.php",
+		"/A/Jyotish/Yoga/Yoga.php",
+		"/A/Jyotish/Panchanga/Yoga/Yoga.php",
+		"/A/Jyotish/Bhava/Arudha.php",
+		"/A/Jyotish/Bhava/Bhava.php",
+		"/A/Jyotish/Yoga/Type/Dhana.php",
+		"/A/Jyotish/Yoga/Type/Raja.php",
+		"/A/Jyotish/Calendar/Event.php",
+		"/A/Jyotish/Calendar/LordAppearance.php",
+		"/A/Jyotish/Calendar/IskconEvents.php",
+		"/A/Jyotish/Panchanga/Karana/Karana.php",
+		"/A/Jyotish/Panchanga/Tithi/Tithi.php",
+		"/A/Jyotish/Ganita/Time.php",
+		"/A/Jyotish/Ganita/Math.php",
+		"/A/Jyotish/Ganita/Astro.php",
+		"/A/Jyotish/Dasha/Dasha.php",
+		"/A/framework/platform/vendor/src/Panchanga/Data/Month",
+		"/A/framework/platform/vendor/src/Panchanga/Data/Sambatsar.php",
+		"/A/framework/platform/vendor/src/Panchanga/Data/Karan.php",
+		"/A/framework/platform/vendor/src/Panchanga/Data/Week.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"JavaScript",
+			"CSS",
+			"HTML",
+			"New",
+			"100",
+			"4",
+			"2",
+			"350",
+			"icon-down-open-big",
+			"icon-up-open-big",
+			"timepicker",
+			"content",
+			".btn_1.green {\n  background: #83c99f;\n}",
+			"icon",
+			"year",
+			"seshbarsadi",
+			"first_aharanga",
+			"ahar",
+			"din_difference",
+			"today_ayanamsa",
+			"barsa_aantar",
+			"login-ov",
+			"login-over",
+			"login-",
+			"in",
+			"+",
+			"_dpNp",
+			"lngDayNames",
+			"dayNames",
+			"monthNames",
+			"&#45",
+			"monthNames",
+			"_dpFd",
+			"defaults",
+			"_dpNp",
+			"_dpFd",
+			"parseInt(",
+			"dpElm",
+			"_npNDys",
+			"BStoAD",
+			"parseInt",
+			"BSbase",
+			"parseInt",
+			"$ADtoBS",
+			"showCalendar",
+			"getDateTable",
+			"var ",
+			"getMonthParameters",
+			"getDateRows",
+			"getDateTable",
+			"table",
+			"</tab",
+			"this.",
+			"numberOfBsDays",
+			"var ",
+			"getDateRows",
+			"numberOfBsDays",
+			"Srikan",
+			"in",
+			"#header",
+			"width",
+			"ayanamsa_perdays",
+			"manda",
+			"ayanamsa_perday",
+			"$barsa_aantar",
+			"ayanamsafirst",
+			"antar",
+			"$this->ayanamsafirst",
+			"longitude",
+			"yesta_kalik_mandouchha",
+			"\\",
+			"in",
+			"tithi",
+			"Tithi",
+			"tithi",
+			"Tithi",
+			"tithi",
+			"Kali_to_Saka",
+			"$this->",
+			"this->",
+			"$this->",
+			"$this->trunc",
+			"$this->",
+			"trunc",
+			"Ahargana_to_Kali",
+			"public ",
+			"this->",
+			"barsa_aantar",
+			"public function loksin($value) {\n		return sin(($value) * M_PI / 180);\n	}",
+			"\\\\",
+			"\\",
+			"#4687ce",
+			"#26a69a",
+			"@media ",
+			"768",
+			"#00c853",
+			"get",
+			"$e",
+			"messag",
+			"_mapped",
+			"convertToArray",
+			"throw new",
+			"$this->denominator",
+			"$this->numerator",
+			"$this->value",
+			"Jyotish",
+			"#im-",
+			"wrdpress_pkg",
+			"Chetansheel Yuwa Samuha",
+			"180px",
+			"150",
+			"Chetansheel Yuwa Samuha",
+			"megaMenu",
+			".menu",
+			"width",
+			"This",
+			"echo ",
+			"\\n",
+			"280",
+			"no",
+			"NO",
+			"Creative",
+			"Creative ",
+			"yourwebsite",
+			"Submit Order",
+			"tick.png",
+			"_POST",
+			"-"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1755,
+								1755
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 903.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "search-page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7836,
+								7836
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8583.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"above"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

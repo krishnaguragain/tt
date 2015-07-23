@@ -42,7 +42,7 @@ ul,li {
     padding: 60px 15px 0;
 }
 #wrap .container  .nav  {
-	float: right!important;
+	float: right;
 }
 .container .text-muted {
     margin: 20px 0;
@@ -51,6 +51,7 @@ ul,li {
    background-color: white; 
    border-color: none; 
   box-shadow: 0 0 5px rgba(0,0,0,.4);
+  position: relative;
 }
 
 
@@ -275,10 +276,141 @@ button.btn_1.blue:hover {
   margin: 0px auto auto;
   width: 150px;
 }
+.left {
+  float: left!important;
+}
+.top_design {
+  padding: 1px!important;
+  margin-top: -5px;
+}
+.top_btn_1 {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: #fff;
+  background: #51bce6;
+  cursor: pointer;
+  padding: 4px 1px;
+  display: inline-block;
+  outline: none;
+  font-size: 12px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+    margin-top: -5px;
+  width: 100%;
+}
+.h30 {
+  height: 30px!important;
+}
+.pgmenu {
+float: left!important;
+}
+.pgmenu .active {
+  border-bottom: 2px solid #ED6C1D;
+}
+.pgmenu>li>a{
+  font-weight: 700;
+  color: #F98310;
+  font-size: 1em;
+}
+.pgmenu>li>a:hover{
+background-color: white;
+}
+.pgln {
+    border-bottom: 1px solid #ebebeb;
+}
+.pd10{
+  padding-top: 10px;
+}
+.sidebar_wiki {
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+}
+.info_image{
 
+}
+.wiki_title {
+    padding: 5px;
+  font-weight: 300;
+  color: #111;
+}
+.wiki_text {
+  padding: 0px 0px 0px 10px;
+  line-height: 15px;
+  text-align: justify;
+  color: #222;
+  font-size: 13px;
+  zoom: 1;
+  font-family: arial,sans-serif;
+}
+.place_info {
+  font-size: 13px;
+  line-height: 1.24;
+color: #222;
+  font-family: arial,sans-serif;
+    margin-left: -20px;
+}
+.place_info li{
+  padding-top: 5px;
+}
+.place_info span {
+  font-weight: bolder;
+    color: #222 !important;
+}
+.wiki_similar h2{
+  font-size: 20px;
+  float: left;
+  color: #111;
+  padding: 5px 0px 6px 15px;
+}
+.wiki_similar span {
+  float: right;
+  padding: 25px 5px 6px 6px;
+}
+.ovhidden {
+    padding-left: 16px;
+  overflow: hidden;
+    display: table;
+  float: left;
+}
+.similar_item {
+ float: left;
+  display: inline;
+  margin: 10px;
+}
+.tdnone:hover,.tdnone:focus,.tdnone:active{
+  text-decoration: none;
+}
+.top_filter_bar {
+  float: left;
+  margin-right: 15px;
+}
+.top_filter_bar a {
+  color: #6C6C6C;
+  font-size: 13px;
 
+}
+.detail_topic {
 
-
+}
+.detail_topic:hover {
+  text-decoration: none;
+}
+.fl_title {
+    font-size: 22px;
+  margin: 15px auto auto 0px;
+}
+.ull{
+  text-decoration: underline;
+}
+.dinline {
+  display: inline;
+}
 
 
 
