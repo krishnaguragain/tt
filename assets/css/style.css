@@ -680,6 +680,7 @@ footer nav {
   -moz-box-shadow: 0 0 5px rgba(0,0,0,.4);
   -webkit-box-shadow: 0 0 5 rgba(0,0,0,.4);
   box-shadow: 0 0 5px rgba(0,0,0,.4);
+    z-index: 999;
 }
 footer nav ul.menu {
   list-style: none;
