@@ -184,7 +184,7 @@
 
 
     <section class="tour">
-    <div class="tour_list" style="visibility: visible; animation-delay: 0.1s; -webkit-animation-delay: 0.1s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">
+    <div class="tour_list" style="visibility: visible;position: relative;animation-delay: 0.1s; -webkit-animation-delay: 0.1s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="img_list">
@@ -272,50 +272,9 @@
                     <div class="rating"><i class="fa fa-smile-o voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o"></i><small>(65%)</small></div>
                     <h3><strong>Thiland</strong> tour</h3>
                     <p>Lorem ipsum dolor sit amet, quem convenire interesset ut vix, ad dicat sanctus detracto vis. Eos modus dolorum ex, qui adipisci maiestatis inciderint no, eos in elit dicat.....</p>
-                    <ul class="add_info">
-                        <li>
-                            <div class="tooltip_styled tooltip-effect-4">
-                                <span class="tooltip-item"><i class="fa fa-clock-o"></i></span>
-                                <div class="tooltip-content">
-                                    <h4>Schedule</h4>
-                                    <strong>Monday to Friday</strong> 07.00 AM - 5.30 PM
-                                    <br>
-                                    <strong>Saturday</strong> 08.00 AM - 5.30 PM
-                                    <br>
-                                    <strong>Sunday</strong> <span class="label label-danger">Closed</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="tooltip_styled tooltip-effect-4">
-                                <span class="tooltip-item"><i class="fa fa-street-view"></i></span>
-                                <div class="tooltip-content">
-                                    <h4>Address</h4> Musée du Louvre, 75058 Paris - France
-                                    <br>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="tooltip_styled tooltip-effect-4">
-                                <span class="tooltip-item"><i class="fa fa-globe"></i></span>
-                                <div class="tooltip-content">
-                                    <h4>Languages</h4> English - French - Chinese - Russian - Italian
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="tooltip_styled tooltip-effect-4">
-                                <span class="tooltip-item"><i class="fa fa-car"></i></span>
-                                <div class="tooltip-content">
-                                    <h4>Transport</h4>
-                                    <strong>Metro: </strong>Musée du Louvre station (line 1)
-                                    <br>
-                                    <strong>Bus:</strong> 21, 24, 27, 39, 48, 68, 69, 72, 81, 95
-                                    <br>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+
+                    <div class="show_detail" data-toggle="collapse" data-target="#viewdetails" >View details &raquo;</div>
+                
                 </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2">
@@ -327,7 +286,99 @@
             </div>
         </div>
     </div>
+    <div id="viewdetails" class="collapse toggle_part">
+
+
+<div class="tabbable-panel">
+        <div class="tabbable-line">
+          <ul class="nav nav-tabs ">
+            <li class="active">
+              <a href="#flightdetails" data-toggle="tab">Flight details</a>
+            </li>
+            <li>
+              <a href="#tab_default_2" data-toggle="tab">
+              Tab 2 </a>
+            </li>
+            <li>
+              <a href="#tab_default_3" data-toggle="tab">
+              Tab 3 </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="flightdetails">
+              <h4><strong>Depart:</strong> Delhi To Kathmandu via Pokhara</h4>
+              
+              <div id="mainflight">
+      <div class="segment-overview">
+        <div class="segment-journey">
+          <div class="segment-departure">
+            <div class="segment-departure-code">DAC</div>
+            <div class="segment-departure-time"> 8:50 am</div>
+          </div>
+          <div class="segment-duration">1h</div>
+          <div class="segment-arrival">
+            <div class="segment-arrival-code">CCU</div>
+            <div class="segment-arrival-time"> 9:20 am </div>
+          </div>
+        </div>
+      </div>
+        <div class="segment-layover-duration">4h 10m</div>
+      <div class="segment-overview">
+        <div class="segment-journey">
+          <div class="segment-departure">
+            <div class="segment-departure-code">CCU</div>
+            <div class="segment-departure-time"> 1:30 pm</div>
+          </div>
+          <div class="segment-duration">1h 30m</div>
+          <div class="segment-arrival">
+            <div class="segment-arrival-code">KTM</div>
+            <div class="segment-arrival-time"> 3:15 pm </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+            </div>
+            <div class="tab-pane" id="tab_default_2">
+              <p>
+                Howdy, I'm in Tab 2.
+              </p>
+              <p>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+              </p>
+              <p>
+                <a class="btn btn-warning" href="http://j.mp/metronictheme" target="_blank">
+                  Click for more features...
+                </a>
+              </p>
+            </div>
+            <div class="tab-pane" id="tab_default_3">
+              <p>
+                Howdy, I'm in Tab 3.
+              </p>
+              <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
+              </p>
+              <p>
+                <a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
+                  Learn more...
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+        </div>
+
 </section>
+
+
+ 
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -437,6 +488,9 @@
     });
     $('.tooltip-1').tooltip({
     html: true
+});
+$(function() {
+    $( "#tabs" ).tab('show');
 });
   </script>
   </body>

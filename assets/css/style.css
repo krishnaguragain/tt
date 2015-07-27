@@ -41,9 +41,9 @@ ul,li {
 #wrap > .container {
     padding: 60px 15px 0;
 }
-#wrap .container  .nav  {
+/*#wrap .container  .nav  {
 	float: right;
-}
+}*/
 .container .text-muted {
     margin: 20px 0;
 }
@@ -134,7 +134,7 @@ ul,li {
   color: #fff;
   /*background-color: #e14d67;*/
 }
-.nav-tabs > li {
+/*.nav-tabs > li {
 background-color: #fff;
   color: #fd4e0d;
   font-size: 13px;
@@ -143,7 +143,7 @@ background-color: #fff;
   -o-box-shadow: 0px -2px 6px #bcbcbc;
   -ms-box-shadow: 0px -2px 6px #bcbcbc;
   box-shadow: 0px -2px 6px #bcbcbc;
- /* text-shadow: 1px 1px 1px #bcbcbc;*/
+ text-shadow: 1px 1px 1px #bcbcbc;
   -webkit-border-radius: 5px 5px 0px 0px;
   -moz-border-radius: 5px 5px 0px 0px;
   -o-border-radius: 5px 5px 0px 0px;
@@ -157,7 +157,7 @@ background-color: #fff;
   float: left;
   margin-bottom: -1px;
 }
-
+*/
 #search .nav-tabs > li > a {
   border-radius: 0;
   border: 0;
@@ -653,6 +653,168 @@ ul.add_info li i {
   padding: 0;
   margin: 0;
 }
+
+.show_detail {
+padding-top: 12px;
+  display: inline-block;
+  margin-right: 5px;
+  border: 2px solid #7C9CBB;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  width: 120px;
+  height: 45px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+.toggle_part {
+  width: 90%;
+    margin: -28px auto;
+   /* background: #F7F7F7;*/
+  /*border-color: #009800;*/
+  -moz-box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.25);
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.25);
+}
+
+
+
+.tabbable-panel {
+  border:1px solid #eee;
+  padding: 10px;
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #fbcdcf;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #f3565d;
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+
+
+#mainflight .segment-overview {
+  display: block;
+  margin: 0 auto 2em auto;
+  width: 45%;
+    position: relative;
+  float: left;
+  overflow: hidden;
+  padding: 2em 0;
+}
+#mainflight .segment-journey {
+  background-position: center -120px;
+    width: 100%;
+  background: #fff url(../img/flight-path.png) center -285px no-repeat;
+  border-bottom: 2px solid #CCC;
+  float: left;
+  height: 70px;
+  position: relative;
+  font-size: 11px;
+}
+.segment-overview .segment-departure {
+  text-align: left;
+  white-space: nowrap;
+  min-width: 30px;
+  background: #fff url(../img/upaeroplane.png) left 46px no-repeat;
+}
+.segment-overview .segment-departure-code{
+  text-align: left;
+  font-weight: 500;
+  color: #337722;
+}
+.segment-overview .segment-departure-time {
+  position: absolute;
+  bottom: -2em;
+  left: 0;
+  direction: ltr;
+}
+.segment-overview .segment-duration {
+  position: absolute;
+  bottom: 2em;
+  font-size: 12px;
+  font-style: italic;
+  color: #ccc;
+  width: 100%;
+  text-align: center;
+}
+.segment-overview .segment-arrival {
+  background-position: right bottom;
+  float: right;
+  text-align: right;
+}
+.segment-overview .segment-arrival {
+  white-space: nowrap;
+  min-width: 30px;
+  background: #fff url(../img/upaeroplane.png) left 46px no-repeat;
+}
+.segment-overview .segment-arrival-time {
+  position: absolute;
+  bottom: -2em;
+  right: 0;
+  direction: ltr;
+}
+.segment-layover-duration {
+  display: block;
+  border-bottom: 2px solid #CCC;
+  text-align: center;
+  padding-top: 6em;
+  font-style: italic;
+  color: #F00;
+  width: 10%;
+  float: left;
+  height: 94px;
+  position: relative;
+  font-size: 11px;
+  padding-bottom: 2em;
+}
+
 
 
 
