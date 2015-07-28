@@ -40,11 +40,11 @@
         </div>
         <div class="navbar-offcanvas offcanvas menu">
           
-          <ul class="nav navbar-nav">
+  <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login <b class="caret"></b></a>
+            <a  href="#" class="btn btn-primary btn-block dropdown-toggle lgnbtn" data-toggle="dropdown">Login</a>
                     <ul id="login-dp" class="dropdown-menu">
-        <li>
+            <li>
            <div class="row">
               <div class="col-md-12">
                 Login via
@@ -76,18 +76,45 @@
                 New here ? <a href="#"><b>Sign Up</b></a>
               </div>
            </div>
-        </li>
-      </ul>
+            </li>
+             </ul>
 
 
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-money"></i> Currency <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">English</a></li>
-                <li><a href="#">Nepali</a></li>
-                <li><a href="#">Hindi</a></li>
-              </ul>
+            <li class="dropdown langbtn">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+              <span>INR</span>
+              <span>|</span>
+              <span><img src="http://www.overland-underwater.com/media/flags/india_flag_small.gif"></span>
+              </a>
+               <ul id="login-dp" class="dropdown-menu">
+          <li>
+           <div class="row">
+              <div class="col-md-12">
+                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                    <div class="form-group">
+                       <label class="select-label">Country</label>
+                       <select class="form-control">
+                                            <option value="">India</option>
+                                            <option value="">China</option>
+                                            <option value="">Nepal</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                       <label class="select-label">Currency</label>
+                       <select class="form-control">
+                                            <option value="">INR</option>
+                                            <option value="">Rs.</option>
+                                            <option value="">$</option>
+                        </select>
+                    </div>
+                 </form>
+              </div>
+              
+           </div>
+        </li>
+      </ul>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -283,17 +310,14 @@
 
 
 
-      <footer>
-        <nav>
-    <ul class="menu">
-      <li><a href="#" id="modal-rooms-open">Rooms</a></li>
-      <li><a href="#" id="modal-about-open">About</a></li>
-            <li><a href="#" id="modal-weather-open">hOTELS</a></li>
-      <li><a href="#" id="modal-contacts-open">Contacts</a></li>
-    </ul>
-    <p class="footer-text">&copy; 2012 Travel Inc.</p>
-    </nav>
-      </footer>
+<footer class="footer">
+    <div class="container center black"> 
+    <a href="#">Home</a> | 
+    <a href="#">About</a> | 
+    <a href="#">Blog</a> | 
+    <a href="#">Contact</a>
+    </div>
+  </footer>
    	</div><!-- wrap -->
 
 

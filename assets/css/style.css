@@ -20,12 +20,17 @@ a {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
-a:focus, a:hover {
+a:focus, a:hover, a:active {
   text-decoration: underline;
   outline: 0;
+  background-color: none;
 }
 ul,li {
     list-style-type: none;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: white;
 }
 
 /* Wrapper for page content to push down footer */
@@ -109,7 +114,7 @@ ul,li {
 
 #search_container {
   /*position: relative;*/
-  height: 600px;
+  height: 500px;
   background-color: #fff;
   width: 100%;
   display: table;
@@ -158,14 +163,15 @@ background-color: #fff;
   margin-bottom: -1px;
 }
 */
-#search .nav-tabs > li > a {
-  border-radius: 0;
-  border: 0;
-  color: #666!important;
-  font-weight: 400;
-   font-family: Raleway,sans-serif;
+#search .nav-tabs > li > a,#search .nav-tabs > li > a:hover,#search .nav-tabs > li > a:active {
+    border-radius: 5px 5px 0px 0px;
+    border: 2px solid #ddd;
+    color: #666!important;
+    font-weight: 400;
+    font-family: Raleway,sans-serif;
 }
-#search .nav-tabs > li {
+#search .nav-tabs > li,#search .nav-tabs > li:hover,#search .nav-tabs > li:active {
+   
     background-color: white;
 }
 #search .nav-tabs > li:hover, #search .nav-tabs > li>a:hover,#search > .nav >li>a:hover{
@@ -243,7 +249,7 @@ a.btn_1, .btn_1 {
   font-family: inherit;
   font-size: inherit;
   color: #fff;
-  background: #51bce6;
+  background: green;
   cursor: pointer;
   padding: 7px 20px;
   display: inline-block;
@@ -288,7 +294,7 @@ button.btn_1.blue:hover {
   font-family: inherit;
   font-size: inherit;
   color: #fff;
-  background: #51bce6;
+      background: green;
   cursor: pointer;
   padding: 4px 1px;
   display: inline-block;
@@ -816,6 +822,58 @@ padding-top: 12px;
 }
 
 
+.pd5{
+      padding: 5px;
+}
+.flright {
+  float: right!important;
+}
+.navbar-nav>li>a.lgnbtn,.navbar-nav>li>a.lgnbtn:hover,.navbar-nav>li>a.lgnbtn:active{
+       height: 32px;
+    margin-right: 10px;
+    margin-top: 12px;
+    padding-top: 5px;
+    color: white;
+    font-weight: 500;
+    background-color: green;
+    border-color: green;
+}
+.navbar-nav>.open>a.lgnbtn, .navbar-nav>.open>a.lgnbtn:focus, .navbar-nav>.open>a.lgnbtn:hover {
+  background-color: green;
+  color: white;
+}
+.langbtn {
+    border-radius: 3px;
+    padding: 3px;
+  margin-left: 4px;
+    margin-top: 12px;
+    border: 1px solid #ccc;
+}
+.langbtn img {
+  height: 16px;
+}
+li.langbtn a {
+  padding: 2px;
+}
+.fare-options li{
+      margin-left: -25px;
+  border-bottom: 1px solid #eee;
+}
+.fare-options label {
+    display: inline-block;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.fare-options button {
+  margin: 10px;
+  width: 100px;
+  float: right;
+}
+.fare-options img {
+  margin-bottom: 10px;
+}
 
 
 
@@ -826,13 +884,40 @@ padding-top: 12px;
 
 
 
-
-
-
-
-
-
-footer nav {
+.footer {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    background: white;
+    padding: 30px 0;
+    overflow: hidden;
+  }
+  .center {
+    margin: 0 auto;
+    text-align: center;
+}
+  .black {
+    color: #111;
+}
+.footer a {
+        font-size: 16px;
+    color: rgba(17, 17, 17, 0.8);
+    font-weight: 500;
+}
+a.gotop {
+    width: 37px;
+    height: 37px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+        padding-top: 15px;
+}
+a.gotop img {
+    width: 37px;
+    height: 37px;
+    display: block;
+    background: url('../img/sprite.png') 0px -72px;
+}
+/*footer nav {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -869,5 +954,5 @@ footer nav ul.menu li a:hover {
 .footer-text {
     padding: 9px 20px 0px 0px;
     float: right;
-}
+}*/
 

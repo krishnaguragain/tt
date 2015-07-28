@@ -24,7 +24,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="top">
    	<div id="wrap">
    
    		<header><!-- Static navbar -->
@@ -45,7 +45,7 @@
           <!-- <ul class="left navbar-nav">
           <li>Home</li>
           </ul> -->
-                              <div class="col-md-3 top_design ">
+                              <div class="col-md-2 top_design ">
                                         <input type="text" class="form-control h30" id="firstname_booking" name="firstname_booking" placeholder="Kathmandu Nepal">
                                 </div>
                                 <div class="col-md-2 top_design ">
@@ -74,16 +74,16 @@
                                   
                                 </div>
                                 <div class="col-md-2">
-                                    <button class="top_btn_1 blue h30"><i class="fa fa-search"></i> Search now</button>
+                                    <button class="top_btn_1 blue h30">Search</button>
                                 </div>
 
                             </div>
 
-          <ul class="nav navbar-nav">
+   <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login <b class="caret"></b></a>
+            <a  href="#" class="btn btn-primary btn-block dropdown-toggle lgnbtn" data-toggle="dropdown">Login</a>
                     <ul id="login-dp" class="dropdown-menu">
-        <li>
+            <li>
            <div class="row">
               <div class="col-md-12">
                 Login via
@@ -115,18 +115,45 @@
                 New here ? <a href="#"><b>Sign Up</b></a>
               </div>
            </div>
-        </li>
-      </ul>
+            </li>
+             </ul>
 
 
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-money"></i> Currency <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">English</a></li>
-                <li><a href="#">Nepali</a></li>
-                <li><a href="#">Hindi</a></li>
-              </ul>
+            <li class="dropdown langbtn">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+              <span>INR</span>
+              <span>|</span>
+              <span><img src="http://www.overland-underwater.com/media/flags/india_flag_small.gif"></span>
+              </a>
+               <ul id="login-dp" class="dropdown-menu">
+          <li>
+           <div class="row">
+              <div class="col-md-12">
+                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                    <div class="form-group">
+                       <label class="select-label">Country</label>
+                       <select class="form-control">
+                                            <option value="">India</option>
+                                            <option value="">China</option>
+                                            <option value="">Nepal</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                       <label class="select-label">Currency</label>
+                       <select class="form-control">
+                                            <option value="">INR</option>
+                                            <option value="">Rs.</option>
+                                            <option value="">$</option>
+                        </select>
+                    </div>
+                 </form>
+              </div>
+              
+           </div>
+        </li>
+      </ul>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -296,12 +323,10 @@
               <a href="#flightdetails" data-toggle="tab">Flight details</a>
             </li>
             <li>
-              <a href="#tab_default_2" data-toggle="tab">
-              Tab 2 </a>
+              <a href="#tab_default_2" data-toggle="tab">Fare Options</a>
             </li>
             <li>
-              <a href="#tab_default_3" data-toggle="tab">
-              Tab 3 </a>
+              <a href="#tab_default_3" data-toggle="tab">Locations</a>
             </li>
           </ul>
           <div class="tab-content">
@@ -341,30 +366,27 @@
 
             </div>
             <div class="tab-pane" id="tab_default_2">
-              <p>
-                Howdy, I'm in Tab 2.
-              </p>
-              <p>
-                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
-              </p>
-              <p>
-                <a class="btn btn-warning" href="http://j.mp/metronictheme" target="_blank">
-                  Click for more features...
-                </a>
-              </p>
+              <ul class="fare-options">
+                <li>
+                  <img src="https://placehold.it/100x45">
+                  <label>Economy</label>
+                  <button class="top_btn_1 blu">View Details</button>
+                </li>
+                <li>
+                  <img src="https://placehold.it/100x45">
+                  <label>Standard</label>
+                  <button class="top_btn_1 blu">View Details</button>
+                </li>
+                <li>
+                  <img src="https://placehold.it/100x45">
+                  <label>Economy</label>
+                  <button class="top_btn_1 blu">View Details</button>
+                </li>
+              </ul>
+
             </div>
             <div class="tab-pane" id="tab_default_3">
-              <p>
-                Howdy, I'm in Tab 3.
-              </p>
-              <p>
-                Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
-              </p>
-              <p>
-                <a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
-                  Learn more...
-                </a>
-              </p>
+              iframe map here....
             </div>
           </div>
         </div>
@@ -436,17 +458,18 @@
 
 
 
-      <footer>
-        <nav>
-    <ul class="menu">
-      <li><a href="#" id="modal-rooms-open">Rooms</a></li>
-      <li><a href="#" id="modal-about-open">About</a></li>
-            <li><a href="#" id="modal-weather-open">hOTELS</a></li>
-      <li><a href="#" id="modal-contacts-open">Contacts</a></li>
-    </ul>
-    <p class="footer-text">&copy; 2012 Travel Inc.</p>
-    </nav>
-      </footer>
+<footer class="footer">
+    <div class="container center black"> 
+    <a href="#">Home</a> | 
+    <a href="#">About</a> | 
+    <a href="#">Blog</a> | 
+    <a href="#">Contact</a>
+    <a href="#top" class="gotop scroll" style="top: 0px;"><img src="assets/img/spacer.png" alt=""></a>
+    </div>
+  </footer>
+
+
+
    	</div><!-- wrap -->
 
 

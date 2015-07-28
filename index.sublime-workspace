@@ -5,7 +5,11 @@
 		[
 			[
 				"padd",
-				"padding-right"
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
 			],
 			[
 				"text",
@@ -26,10 +30,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"marg",
-				"margin-top"
 			],
 			[
 				"bor",
@@ -235,7 +235,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 18578,
+				"buffer_size": 19562,
 				"line_ending": "Windows"
 			}
 		},
@@ -243,7 +243,7 @@
 			"file": "search-page.html",
 			"settings":
 			{
-				"buffer_size": 21780,
+				"buffer_size": 22378,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,7 +251,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 16732,
+				"buffer_size": 18686,
 				"line_ending": "Windows"
 			}
 		}
@@ -314,6 +314,12 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Bibek/Desktop/chain/1.html",
+		"/C/Users/Bibek/Desktop/chain/2.html",
+		"/C/Users/Bibek/Desktop/topnews/functions.php",
+		"/C/Users/Bibek/Desktop/forum-template/index.html",
+		"/C/Users/Bibek/Desktop/backup/index.php",
+		"/C/Users/Bibek/Desktop/forum-template/login.html",
 		"/C/My Web Sites/forum/index.html",
 		"/C/UwAmp/www/tt/assets/js/bootstrap-timepicker.js",
 		"/C/UwAmp/www/tt/assets/css/date_time_picker.css",
@@ -435,13 +441,7 @@
 		"/A/Jyotish/Calendar/IskconEvents.php",
 		"/A/Jyotish/Panchanga/Karana/Karana.php",
 		"/A/Jyotish/Panchanga/Tithi/Tithi.php",
-		"/A/Jyotish/Ganita/Time.php",
-		"/A/Jyotish/Ganita/Math.php",
-		"/A/Jyotish/Ganita/Astro.php",
-		"/A/Jyotish/Dasha/Dasha.php",
-		"/A/framework/platform/vendor/src/Panchanga/Data/Month",
-		"/A/framework/platform/vendor/src/Panchanga/Data/Sambatsar.php",
-		"/A/framework/platform/vendor/src/Panchanga/Data/Karan.php"
+		"/A/Jyotish/Ganita/Time.php"
 	],
 	"find":
 	{
@@ -459,6 +459,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"float: right;",
+			"input",
+			"100",
 			"tab_default_1",
 			"article",
 			"3",
@@ -583,10 +586,7 @@
 			".menu",
 			"width",
 			"This",
-			"echo ",
-			"\\n",
-			"280",
-			"no"
+			"echo "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -604,7 +604,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -613,15 +613,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18578,
+						"buffer_size": 19562,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1755,
-								1755
+								1191,
+								1191
 							]
 						],
 						"settings":
@@ -633,10 +633,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 155.0,
+						"translation.y": 465.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -645,15 +645,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21780,
+						"buffer_size": 22378,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15387,
-								15387
+								4281,
+								4281
 							]
 						],
 						"settings":
@@ -665,7 +665,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7665.0,
+						"translation.y": 1805.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -677,15 +677,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16732,
+						"buffer_size": 18686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14827,
-								14827
+								4016,
+								4016
 							]
 						],
 						"settings":
@@ -696,11 +696,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 16679.0,
+						"translation.x": 10.0,
+						"translation.y": 3485.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
