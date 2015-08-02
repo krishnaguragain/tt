@@ -291,30 +291,30 @@ button.btn_1.blue:hover {
   float: left!important;
 }
 .top_design {
-  padding: 1px!important;
-  margin-top: -5px;
+    padding: 1px!important;
+    margin-top: 8px;
 }
 .top_btn_1 {
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: #fff;
-      background: green;
-  cursor: pointer;
-  padding: 4px 1px;
-  display: inline-block;
-  outline: none;
-  font-size: 12px;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  transition: all .3s;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  text-transform: uppercase;
-  font-weight: 700;
-    margin-top: -5px;
-  width: 100%;
+    border: none;
+    font-family: inherit;
+    color: #fff;
+    background: green;
+    cursor: pointer;
+    padding: 7px 0px 5px 2px;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 90px;
 }
 .h30 {
   height: 30px!important;
@@ -425,6 +425,7 @@ color: #222;
 
 
 .tour .tour_list {
+      margin-top: 40px;
   margin-bottom: 30px;
   background-color: #fff;
   display: block;
@@ -760,20 +761,22 @@ padding-top: 12px;
   padding: 2em 0;
 }
 #mainflight .segment-journey {
-  background-position: center -120px;
+    background-position: center -120px;
     width: 100%;
-  background: #fff url(../img/flight-path.png) center -285px no-repeat;
-  border-bottom: 2px solid #CCC;
-  float: left;
-  height: 70px;
-  position: relative;
-  font-size: 11px;
+    background: #fff url(../img/flight-path.png) center 23px no-repeat;
+    border-bottom: 1px solid #CCC;
+    float: left;
+    height: 70px;
+    position: relative;
+    font-size: 13px;
 }
 .segment-overview .segment-departure {
-  text-align: left;
-  white-space: nowrap;
-  min-width: 30px;
-  background: #fff url(../img/upaeroplane.png) left 46px no-repeat;
+    text-align: left;
+    /* margin-top: 30px; */
+    background-size: 30px;
+    white-space: nowrap;
+    min-width: 40px;
+    background: #fff url(../img/upaeroplane.png) left 6px no-repeat;
 }
 .segment-overview .segment-departure-code{
   text-align: left;
@@ -836,7 +839,7 @@ padding-top: 12px;
 .navbar-nav>li>a.lgnbtn,.navbar-nav>li>a.lgnbtn:hover,.navbar-nav>li>a.lgnbtn:active{
        height: 32px;
     margin-right: 10px;
-    margin-top: 12px;
+    margin-top: 8px;
     padding-top: 5px;
     color: white;
     font-weight: 500;
@@ -847,14 +850,14 @@ padding-top: 12px;
   background-color: green;
   color: white;
 }
-.navbar-brand {
+a.navbar-brand {
   padding: 0px 15px;
 }
 .langbtn {
     border-radius: 3px;
     padding: 3px;
   margin-left: 4px;
-    margin-top: 12px;
+    margin-top: 8px;
     border: 1px solid #ccc;
 }
 .langbtn img {

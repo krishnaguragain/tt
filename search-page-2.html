@@ -41,26 +41,94 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+            <li><div class="top_design"><input type="text" class="form-control h30" id="firstname_booking" name="firstname_booking" placeholder="Kathmandu Nepal"></div></li>
+            <li><div class="top_design"><input class="date-pick form-control h30" data-date-format="M d, D" type="text"></div></li>
+            <li><div class="top_design"> <div class="numbers-row">
+                                            <input type="text" value="1" id="adults" class="qty2 form-control h30" name="adults">
+                                        <div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div><div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div></div></div></li>
+            <li><div class="top_design"><div class="numbers-row">
+                                            <input type="text" value="0" id="children" class="qty2 form-control h30" name="children">
+                                        <div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div><div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div></div></div></li>
+            <li class=""><button class="top_btn_1 blue h30">Search</button></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+           <li class="dropdown langbtn">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+              <span>INR</span>
+              <span>|</span>
+              <span><img src="http://www.overland-underwater.com/media/flags/india_flag_small.gif"></span>
+              </a>
+               <ul id="login-dp" class="dropdown-menu">
+          <li>
+           <div class="row">
+              <div class="col-md-12">
+                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                    <div class="form-group">
+                       <label class="select-label">Country</label>
+                       <select class="form-control">
+                                            <option value="">India</option>
+                                            <option value="">China</option>
+                                            <option value="">Nepal</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                       <label class="select-label">Currency</label>
+                       <select class="form-control">
+                                            <option value="">INR</option>
+                                            <option value="">Rs.</option>
+                                            <option value="">$</option>
+                        </select>
+                    </div>
+                 </form>
+              </div>
+              
+           </div>
+        </li>
+      </ul>
+            </li>
+            <li class="dropdown">
+            <a  href="#" class="btn btn-primary btn-block dropdown-toggle lgnbtn" data-toggle="dropdown">Login</a>
+                    <ul id="login-dp" class="dropdown-menu">
+            <li>
+           <div class="row">
+              <div class="col-md-12">
+                Login via
+                <div class="social-buttons">
+                  <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                  <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                </div>
+                                or
+                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                       <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                    </div>
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputPassword2">Password</label>
+                       <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                    </div>
+                    <div class="checkbox">
+                       <label><input type="checkbox"> keep me logged-in</label>
+                    </div>
+                    <div class="form-group">
+                       <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                    </div>
+                    
+                 </form>
+              </div>
+              <div class="bottom text-center">
+                New here ? <a href="#"><b>Sign Up</b></a>
+              </div>
+           </div>
+            </li>
+             </ul>
+
+
+            </li>
+            
+            
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -116,77 +184,120 @@
 
 
     <section class="tour">
-    <div class="tour_list" style="visibility: visible;position: relative;animation-delay: 0.1s; -webkit-animation-delay: 0.1s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">
+
+
+        <div class="tour_list" style="visibility: visible; animation-delay: 0.1s; -webkit-animation-delay: 0.1s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="img_list">
                     <a href="#">
                         <div class="ribbon popular"></div><img src="assets/img/paris.jpg" alt="">
-                        <div class="short_info"><i class="fa fa-plane"></i> Paris </div>
+                        <div class="short_info"><i class="fa fa-plane"></i> Thiland </div>
                     </a>
                 </div>
             </div>
             <div class="clearfix visible-xs-block"></div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="tour_list_desc">
-                    <div class="rating"><i class="fa fa-smile-o voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o"></i><small>(75%)</small></div>
-                    <h3><strong>Paris</strong> tour</h3>
+                    <div class="rating"><i class="fa fa-smile-o voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o"></i><small>(65%)</small></div>
+                    <h3><strong>Thiland</strong> tour</h3>
                     <p>Lorem ipsum dolor sit amet, quem convenire interesset ut vix, ad dicat sanctus detracto vis. Eos modus dolorum ex, qui adipisci maiestatis inciderint no, eos in elit dicat.....</p>
-                    <ul class="add_info">
-                        <li>
-                            <div class="tooltip_styled tooltip-effect-4">
-                                <span class="tooltip-item"><i class="fa fa-clock-o"></i></span>
-                                <div class="tooltip-content">
-                                    <h4>Schedule</h4>
-                                    <strong>Monday to Friday</strong> 09.00 AM - 5.30 PM
-                                    <br>
-                                    <strong>Saturday</strong> 09.00 AM - 5.30 PM
-                                    <br>
-                                    <strong>Sunday</strong> <span class="label label-danger">Closed</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="tooltip_styled tooltip-effect-4">
-                                <span class="tooltip-item"><i class="fa fa-street-view"></i></span>
-                                <div class="tooltip-content">
-                                    <h4>Address</h4> Musée du Louvre, 75058 Paris - France
-                                    <br>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="tooltip_styled tooltip-effect-4">
-                                <span class="tooltip-item"><i class="fa fa-globe"></i></span>
-                                <div class="tooltip-content">
-                                    <h4>Languages</h4> English - French - Chinese - Russian - Italian
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="tooltip_styled tooltip-effect-4">
-                                <span class="tooltip-item"><i class="fa fa-car"></i></span>
-                                <div class="tooltip-content">
-                                    <h4>Transport</h4>
-                                    <strong>Metro: </strong>Musée du Louvre station (line 1)
-                                    <br>
-                                    <strong>Bus:</strong> 21, 24, 27, 39, 48, 68, 69, 72, 81, 95
-                                    <br>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+
+                    <div class="show_detail" data-toggle="collapse" data-target="#2" >View details &raquo;</div>
+                
                 </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2">
                 <div class="price_list">
-                    <div><sup>$</sup>39*<span class="normal_price_list">$99</span><small>*Per person</small>
-                        <p><a href="#" class="btn_1">Details</a></p>
+                    <div><sup>$</sup>79*<span class="normal_price_list">$99</span><small>*Per person</small>
+                        <p><a href="#" class="btn_1 yellow">Book Now</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+        <div id="2" class="collapse toggle_part">
+
+
+<div class="tabbable-panel">
+        <div class="tabbable-line">
+          <ul class="nav nav-tabs ">
+            <li class="active">
+              <a href="#2flight" data-toggle="tab">Flight details</a>
+            </li>
+            <li>
+              <a href="#2fare" data-toggle="tab">Fare Options</a>
+            </li>
+            <li>
+              <a href="#2location" data-toggle="tab">Locations</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="2flight">
+              <h4><strong>Depart:</strong> Delhi To Kathmandu via Pokhara</h4>
+              
+              <div id="mainflight">
+      <div class="segment-overview">
+        <div class="segment-journey">
+          <div class="segment-departure">
+            <div class="segment-departure-code">DAC</div>
+            <div class="segment-departure-time"> 8:50 am</div>
+          </div>
+          <div class="segment-duration">1h</div>
+          <div class="segment-arrival">
+            <div class="segment-arrival-code">CCU</div>
+            <div class="segment-arrival-time"> 9:20 am </div>
+          </div>
+        </div>
+      </div>
+        <div class="segment-layover-duration">4h 10m</div>
+      <div class="segment-overview">
+        <div class="segment-journey">
+          <div class="segment-departure">
+            <div class="segment-departure-code">CCU</div>
+            <div class="segment-departure-time"> 1:30 pm</div>
+          </div>
+          <div class="segment-duration">1h 30m</div>
+          <div class="segment-arrival">
+            <div class="segment-arrival-code">KTM</div>
+            <div class="segment-arrival-time"> 3:15 pm </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+            </div>
+            <div class="tab-pane" id="2fare">
+              <ul class="fare-options">
+                <li>
+                  <img src="https://placehold.it/100x45">
+                  <label>Economy</label>
+                  <button class="top_btn_1 blu">View Details</button>
+                </li>
+                <li>
+                  <img src="https://placehold.it/100x45">
+                  <label>Standard</label>
+                  <button class="top_btn_1 blu">View Details</button>
+                </li>
+                <li>
+                  <img src="https://placehold.it/100x45">
+                  <label>Economy</label>
+                  <button class="top_btn_1 blu">View Details</button>
+                </li>
+              </ul>
+
+            </div>
+            <div class="tab-pane" id="2location">
+              iframe map here....
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+        </div>
 
     <div class="tour_list" style="visibility: visible; animation-delay: 0.1s; -webkit-animation-delay: 0.1s; animation-name: fadeIn; -webkit-animation-name: fadeIn;">
         <div class="row">
