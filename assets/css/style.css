@@ -847,6 +847,9 @@ padding-top: 12px;
   background-color: green;
   color: white;
 }
+.navbar-brand {
+  padding: 0px 15px;
+}
 .langbtn {
     border-radius: 3px;
     padding: 3px;
