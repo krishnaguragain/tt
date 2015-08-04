@@ -685,9 +685,9 @@ padding-top: 12px;
     margin: -28px auto;
    /* background: #F7F7F7;*/
   /*border-color: #009800;*/
-  -moz-box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.25);
-  -webkit-box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.25);
-  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.25);
+  -moz-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.25);
+  box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.25);
 }
 
 
@@ -763,7 +763,7 @@ padding-top: 12px;
 #mainflight .segment-journey {
     background-position: center -120px;
     width: 100%;
-    background: #fff url(../img/flight-path.png) center 23px no-repeat;
+    background: #fff url(../img/flight-path.png) center -85px no-repeat;
     border-bottom: 1px solid #CCC;
     float: left;
     height: 70px;
@@ -775,8 +775,9 @@ padding-top: 12px;
     /* margin-top: 30px; */
     background-size: 30px;
     white-space: nowrap;
-    min-width: 40px;
-    background: #fff url(../img/upaeroplane.png) left 6px no-repeat;
+    float: left;
+    height: 70px;
+    background: #fff url(../img/upaeroplane.png) left 46px no-repeat;
 }
 .segment-overview .segment-departure-code{
   text-align: left;
@@ -804,9 +805,15 @@ padding-top: 12px;
   text-align: right;
 }
 .segment-overview .segment-arrival {
-  white-space: nowrap;
-  min-width: 30px;
-  background: #fff url(../img/upaeroplane.png) left 46px no-repeat;
+
+      background-position: right bottom;
+    white-space: nowrap;
+    min-width: 40px;
+    height: 70px;
+    direction: ltr;
+    background: #fff url(../img/upaeroplane.png) left -33px no-repeat;
+    float: right;
+    text-align: right;
 }
 .segment-overview .segment-arrival-time {
   position: absolute;
