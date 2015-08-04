@@ -830,11 +830,46 @@ padding-top: 12px;
   color: #F00;
   width: 10%;
   float: left;
-  height: 94px;
+  height: 98px;
   position: relative;
   font-size: 11px;
   padding-bottom: 2em;
 }
+
+
+.div-table{
+  display:table;         
+  width: 100%;         
+  background-color:#fff;         
+  border: none;        
+  border-spacing:5px;/*cellspacing:poor IE support for  this*/
+}
+.div-table-row{
+  display:table-row;
+  width:auto;
+  clear:both;
+  padding: 12px;
+      background-color: #FAFAFA;
+}
+.div-table-col{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width: calc(100% / 5);
+  padding: 12px;         
+  background-color:#FAFAFA;  
+}
+.fl_breaktime {
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    padding: .5em 1em !important;
+}
+
+
+
+
+
+
 
 
 .pd5{

@@ -23,6 +23,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   </head>
   <body id="top">
     <div id="wrap">
@@ -162,11 +165,9 @@
         <div class="dropdown top_filter_bar">
             <a href="" class="dropdown-toggle tdnone" data-toggle="dropdown">Price
   <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#">Test 1</a></li>
-                <li><a href="#">Test 2</a></li>
-                <li><a href="#">Test 3</a></li>
-            </ul>
+            <div class="dropdown-menu">
+<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </div>
         </div>
         <div class="dropdown top_filter_bar">
             <a href="" class="dropdown-toggle tdnone" data-toggle="dropdown">Airlines
@@ -265,7 +266,32 @@
         </div>
       </div>
   </div>
-
+          <div class="flight_explan">
+            <div class="div-table">
+             <div class="div-table-row">
+                <div class="div-table-col">Airlines</div>
+                <div  class="div-table-col">Flight No.</div>
+                <div  class="div-table-col">From</div>
+                <div  class="div-table-col">To</div>
+                <div  class="div-table-col">Duration</div>
+             </div>
+            <div class="div-table-row">
+                  <div class="div-table-col">Airarabia</div>
+                <div class="div-table-col">G9514</div>
+                <div class="div-table-col"><strong>11:00 am, 26 Aug Wed</strong><br>DAC Dhaka</div>
+                <div class="div-table-col"><strong>02:00 pm, 26 Aug Wed</strong><br>SHJ Sharjah</div>
+                <div class="div-table-col">5h</div>
+            </div>
+            <div class="fl_breaktime">1h 40m layover in Kuala Lumpur (KUL)</div>
+            <div class="div-table-row">
+                <div class="div-table-col">Airarabia</div>
+                <div class="div-table-col">G9537</div>
+                <div class="div-table-col"><strong>4:30 pm, 26 Aug Wed </strong><br>SHJ Sharjah</div>
+                <div class="div-table-col"><strong>10:15 pm, 26 Aug Wed</strong><br>KTM Kathmandu</div>
+                <div class="div-table-col">4h</div>
+           </div>
+      </div>
+          </div>
 
             </div>
             <div class="tab-pane" id="2fare">
@@ -531,6 +557,20 @@
 $(function() {
     $( "#tabs" ).tab('show');
 });
+
+  $(function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: [ 75, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+  });
   </script>
   </body>
 </html>
