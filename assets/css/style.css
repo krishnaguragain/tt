@@ -291,8 +291,8 @@ button.btn_1.blue:hover {
   float: left!important;
 }
 .top_design {
-    padding: 1px!important;
-    margin-top: 8px;
+        padding: 1px!important;
+    margin-bottom: 3px;
 }
 .top_btn_1 {
     border: none;
@@ -312,7 +312,7 @@ button.btn_1.blue:hover {
     border-radius: 3px;
     text-transform: uppercase;
     font-weight: 700;
-    margin-top: 8px;
+    margin-top: 20px;
     margin-left: 10px;
     width: 90px;
 }
@@ -427,6 +427,7 @@ color: #222;
 .tour .tour_list {
       margin-top: 40px;
   margin-bottom: 30px;
+  height: 150px;
   background-color: #fff;
   display: block;
   color: #777;
@@ -434,18 +435,18 @@ color: #222;
   -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
   box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
 }
-.tour .tour_list:hover {
+/*.tour .tour_list:hover {
     border-color: #B4A9F5;
     -moz-box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.25);
     -webkit-box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.25);
     box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.25);
-}
+}*/
 
 
 
 .img_list {
   overflow: hidden;
-  min-height: 220px;
+  min-height: 150px;
   text-align: center;
   position: relative;
 }
@@ -500,8 +501,8 @@ color: #222;
 }
 .tour_list_desc {
   padding: 10px 20px 0 0;
-  border-right: 1px solid #ededed;
-  height: 220px;
+  border-right: 0px solid #ededed;
+  height: 150px;
   line-height: 17px;
 }
 .rating {
@@ -526,6 +527,12 @@ color: #222;
   line-height: 20px;
   margin-top: 0;
   margin-bottom: 10px;
+}
+.tour_list_desc p {
+      word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .tour h3 {
   text-transform: uppercase;
@@ -636,11 +643,12 @@ ul.add_info li i {
 
 .price_list {
   display: table;
-  height: 220px;
+  height: 150px;
   font-size: 38px;
   color: #e74c3c;
   width: 100%;
   margin-left: -15px;
+  margin-top: 2px;
 }
 .price_list div {
   display: table-cell;
@@ -675,15 +683,13 @@ ul.add_info li i {
 padding-top: 12px;
   display: inline-block;
   margin-right: 5px;
-  border: 2px solid #7C9CBB;
+  border: none;
+  /*border: 2px solid #7C9CBB;*/
   text-align: center;
   font-weight: 600;
   cursor: pointer;
   width: 120px;
   height: 45px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
 }
 .toggle_part {
   width: 90%;
@@ -911,8 +917,11 @@ a.navbar-brand {
     border-radius: 3px;
     padding: 3px;
   margin-left: 4px;
-    margin-top: 8px;
+    margin-top: 20px;
     border: 1px solid #ccc;
+}
+.loginbtn {
+  margin: 12px 0px 0px 10px;
 }
 .langbtn img {
   height: 16px;
@@ -947,6 +956,42 @@ li.langbtn a {
     width: 200px; text-overflow: ellipsis; overflow: hidden;}
 .overview h4 {margin: 10px;clear: both;}
 .overview p {padding: 10px;font-weight: 500;text-align: justify;margin: 10px;}
+
+label.tpblabel {
+        font-weight: 500;
+    margin-bottom: 1px;
+}
+.slider_dpdwn {
+    width: 300px;
+    padding: 5px 10px 0px 5px;
+    margin: 2px 0px 20px -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -988,42 +1033,3 @@ a.gotop img {
     display: block;
     background: url('../img/sprite.png') 0px -72px;
 }
-/*footer nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background: #fff;
-  width: 100%;
-  font-weight: 600;
-  -moz-box-shadow: 0 0 5px rgba(0,0,0,.4);
-  -webkit-box-shadow: 0 0 5 rgba(0,0,0,.4);
-  box-shadow: 0 0 5px rgba(0,0,0,.4);
-    z-index: 999;
-}
-footer nav ul.menu {
-  list-style: none;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-}
-footer nav ul.menu li {
-  float: left;
-}
-footer nav ul.menu li a {
-      padding-left: 50px;
-  position: relative;
-  display: inline-block;
-  padding: 10px 30px;
-  color: #444;
-  background: url(../img/menu_divider.png) no-repeat center right;
-}
-footer nav ul.menu li a:hover {
-  background: #000 url(../img/menu_divider.png) no-repeat center right;
-  color: #fff;
-  text-decoration: none;
-}
-.footer-text {
-    padding: 9px 20px 0px 0px;
-    float: right;
-}*/
-

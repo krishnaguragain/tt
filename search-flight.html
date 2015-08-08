@@ -28,7 +28,6 @@
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
         <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-      
   </head>
   <body id="top">
     <div id="wrap">
@@ -47,15 +46,49 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><div class="top_design"><label class='control-label tpblabel'>Enter Location:-</label><input type="text" class="form-control h30" id="firstname_booking" name="firstname_booking" placeholder="Kathmandu, Nepal"></div></li>
-            <li><div class="top_design"><label class='control-label tpblabel'>Check-in Date:-</label><input class="date-pick form-control h30" data-date-format="M d, D" type="text"></div></li>
-            <li><div class="top_design"><label class='control-label tpblabel'>Check-Out Date:-</label><input class="date-pick form-control h30" data-date-format="M d, D" type="text"></div></li>
-            <li><div class="top_design"><label class='control-label tpblabel'>No of Room:-</label> <div class="numbers-row">
-                                            <input type="text" value="1" id="rooms" class="qty2 form-control h30" name="rooms">
-                                        <div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div><div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div></div></div></li>
-            <li><div class="top_design"><label class='control-label tpblabel'>No of Guests:-</label><div class="numbers-row">
+            <li><div class="top_design"><label class='control-label tpblabel'>From:-</label><input type="text" class="form-control h30" id="firstname_booking" name="firstname_booking" placeholder=""></div></li>
+            <li><div class="top_design"><label class='control-label tpblabel'>To:-</label><input type="text" class="form-control h30" id="firstname_booking" name="firstname_booking" placeholder=""></div></li>
+            <li><div class="top_design">
+              <label class='control-label tpblabel'>Trip:-</label>
+       <div class="btn-group btn-toggle h30" data-toggle="buttons" style="display: block;">
+    <label class="btn btn-sm btn-success active">
+      <input type="radio" name="options" value="option1"> One Way
+    </label>
+    <label class="btn btn-sm btn-default">
+      <input type="radio" name="options" value="option2" checked=""> Two Way
+    </label>
+  </div>
+
+            </div></li>
+            <li><div class="top_design"><label class='control-label tpblabel'>Depart:-</label><input class="date-pick form-control h30" data-date-format="M d, D" type="text"></div></li>
+
+            <li class="dropdown" style="margin-top: 6px;">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                <ul id="login-dp" class="dropdown-menu">
+                  <li>
+           <div class="row">
+              <div class="col-md-12">
+                 
+                    <div class="form-group">
+                       <label class="select-label">Return:-</label>
+                       <input class="date-pick form-control h30" data-date-format="M d, D" type="text">
+                    </div>
+                    <div class="form-group">
+                       <label class="select-label">No of Person:-</label>
+                       <div class="numbers-row">
                                             <input type="text" value="0" id="children" class="qty2 form-control h30" name="children">
-                                        <div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div><div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div></div></div></li>
+                                        <div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div><div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div></div></div>
+                    
+                   
+               
+              </div>
+              
+           </div>
+        </li>
+               </ul>
+              </li>
+           
+           
             <li class=""><button class="top_btn_1 blue h30">Search</button></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -148,8 +181,8 @@
           <div class="row">
             <div class="collapse navbar-collapse pgln">
               <ul class="pgmenu nav navbar-nav ">
-                <li class="active"><a href="">&nbsp; PLACES</a></li>
-                <li><a href="#">&nbsp; FLIGHTS</a></li>
+                <li><a href="">&nbsp; PLACES</a></li>
+                <li class="active"><a href="#">&nbsp; FLIGHTS</a></li>
                 <li><a href="#">&nbsp; HOTELS</a></li>
              </ul>
            </div>
@@ -161,7 +194,7 @@
             <a href="" class="dropdown-toggle tdnone" data-toggle="dropdown">Stops
   <span class="caret"></span></a>
             <ul class="dropdown-menu">
-               <li><a href="#"><input type="checkbox"> Test 1</a></li>
+          <li><a href="#"><input type="checkbox"> Test 1</a></li>
                 <li><a href="#"><input type="checkbox"> Test 2</a></li>
                <li><a href="#"><input type="checkbox"> Test 3</a></li>
             </ul>
@@ -196,19 +229,19 @@
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="img_list">
                     <a href="#">
-                        <div class="ribbon popular"></div><img src="assets/img/hotel.jpg" alt="">
-                        <div class="short_info"><i class="fa fa-plane"></i> Kathmandu </div>
+                        <div class="ribbon popular"></div><img src="assets/img/paris.jpg" alt="">
+                        <div class="short_info"><i class="fa fa-plane"></i> Thiland </div>
                     </a>
                 </div>
             </div>
             <div class="clearfix visible-xs-block"></div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="tour_list_desc">
-                    <div class="rating"><i class="fa fa-smile-o voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o"></i><small>(45%)</small></div>
-                    <h3><strong>Crowne Plaza - SOALTEE</h3>
-                    <p>Tahachal</p>
+                    <div class="rating"><i class="fa fa-smile-o voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o  voted"></i><i class="fa fa-smile-o"></i><small>(65%)</small></div>
+                    <h3><strong>Thiland</strong> tour</h3>
+                    <p>Lorem ipsum dolor sit amet, quem convenire interesset ut vix, ad dicat sanctus detracto vis. Eos modus dolorum ex, qui adipisci maiestatis inciderint no, eos in elit dicat.....</p>
 
-                    <div class="show_detail" data-toggle="collapse" data-target="#2" >View More &raquo;</div>
+                    <div class="show_detail" data-toggle="collapse" data-target="#2" >View details &raquo;</div>
                 
                 </div>
             </div>
@@ -228,65 +261,91 @@
         <div class="tabbable-line">
           <ul class="nav nav-tabs ">
             <li class="active">
-              <a href="#1overwiew" data-toggle="tab">Overwiew</a>
+              <a href="#2flight" data-toggle="tab">Flight details</a>
             </li>
             <li>
-              <a href="#2rates" data-toggle="tab">Rates</a>
+              <a href="#2fare" data-toggle="tab">Fare Options</a>
             </li>
             <li>
-              <a href="#2location" data-toggle="tab">Map</a>
+              <a href="#2location" data-toggle="tab">Locations</a>
             </li>
           </ul>
           <div class="tab-content">
-            <div class="tab-pane active" id="1overwiew">
-              <div class="row">
-                <div class="col-md-1 mr10"><img src="https://placehold.it/70x70" class="preview" data-img="https://placehold.it/250x250"></div>
-                <div class="col-md-1 mr10"><img src="https://placehold.it/70x70" class="preview" data-img="https://placehold.it/250x250"></div>
-                <div class="col-md-1 mr10"><img src="https://placehold.it/70x70" class="preview" data-img="https://placehold.it/250x250"></div>
-                <div class="col-md-1 mr10"><img src="https://placehold.it/70x70" class="preview" data-img="https://placehold.it/250x250"></div>
-                <div class="col-md-1 mr10"><img src="https://placehold.it/70x70" class="preview" data-img="https://placehold.it/250x250"></div>
-                <div class="col-md-1 mr10"><img src="https://placehold.it/70x70" class="preview" data-img="https://placehold.it/250x250"></div>
-                <div class="col-md-1 mr10"><img src="https://placehold.it/70x70" class="preview" data-img="https://placehold.it/250x250"></div>
-          
-              </div>
-              <div class="row overview">
-                <h4 class="">Facilites:</h4>
-                <ul class="">
-                  <li class="">Highspeed Internet</li>
-                  <li class="">Parking</li>
-                  <li class="">Airconditioning</li>
-                  <li class="">Facilities for Disabled</li>
-                  <li class="">Business Centre</li>
-                  <li class="">Restaurant</li>
-                  <li class="">Non-smoking Rooms</li>
-                </ul>
-
-                <h4 class="">Description:</h4>
-                <p>Royal Astoria Hotel´ is a truly international hotel, located in the most quiet and pollution free area of Bansbari, Kathmandu. 5 Kilometers north from Thamel and 15 minutes away from the international airport. Easy access to all tourist attractions. Astoria has 25 tastefully decorated Deluxe rooms all featuring private bathroom, Cable TV, IDD telephone. Wi-Fi internet access and writing desk makes your business simpler, you can mix your own drinks from our well stocked mini bar. Air-conditioning can be set to your preferred level. The private balconies offer great views of Shivapuri National Reserve, Kopan Monastery and Boudhanath. Royal Astoria Hotel offers a ADA compliant room for physically disabled people.</p>
-              </div>
+            <div class="tab-pane active" id="2flight">
+              <h4><strong>Depart:</strong> Delhi To Kathmandu via Pokhara</h4>
               
-
-          
+              <div id="mainflight">
+      <div class="segment-overview">
+        <div class="segment-journey">
+          <div class="segment-departure">
+            <div class="segment-departure-code">DAC</div>
+            <div class="segment-departure-time"> 8:50 am</div>
+          </div>
+          <div class="segment-duration">1h</div>
+          <div class="segment-arrival">
+            <div class="segment-arrival-code">CCU</div>
+            <div class="segment-arrival-time"> 9:20 am </div>
+          </div>
+        </div>
+      </div>
+        <div class="segment-layover-duration">4h 10m</div>
+      <div class="segment-overview">
+        <div class="segment-journey">
+          <div class="segment-departure">
+            <div class="segment-departure-code">CCU</div>
+            <div class="segment-departure-time"> 1:30 pm</div>
+          </div>
+          <div class="segment-duration">1h 30m</div>
+          <div class="segment-arrival">
+            <div class="segment-arrival-code">KTM</div>
+            <div class="segment-arrival-time"> 3:15 pm </div>
+          </div>
+        </div>
+      </div>
+  </div>
+          <div class="flight_explan">
+            <div class="div-table">
+             <div class="div-table-row">
+                <div class="div-table-col">Airlines</div>
+                <div  class="div-table-col">Flight No.</div>
+                <div  class="div-table-col">From</div>
+                <div  class="div-table-col">To</div>
+                <div  class="div-table-col">Duration</div>
+             </div>
+            <div class="div-table-row">
+                  <div class="div-table-col">Airarabia</div>
+                <div class="div-table-col">G9514</div>
+                <div class="div-table-col"><strong>11:00 am, 26 Aug Wed</strong><br>DAC Dhaka</div>
+                <div class="div-table-col"><strong>02:00 pm, 26 Aug Wed</strong><br>SHJ Sharjah</div>
+                <div class="div-table-col">5h</div>
+            </div>
+            <div class="fl_breaktime">1h 40m layover in Kuala Lumpur (KUL)</div>
+            <div class="div-table-row">
+                <div class="div-table-col">Airarabia</div>
+                <div class="div-table-col">G9537</div>
+                <div class="div-table-col"><strong>4:30 pm, 26 Aug Wed </strong><br>SHJ Sharjah</div>
+                <div class="div-table-col"><strong>10:15 pm, 26 Aug Wed</strong><br>KTM Kathmandu</div>
+                <div class="div-table-col">4h</div>
+           </div>
+      </div>
+          </div>
 
             </div>
-            <div class="tab-pane" id="2rates">
+            <div class="tab-pane" id="2fare">
               <ul class="fare-options">
                 <li>
                   <img src="https://placehold.it/100x45">
                   <label>Economy</label>
-                  <label class="">$166</label>
                   <button class="top_btn_1 blu">View Details</button>
                 </li>
                 <li>
                   <img src="https://placehold.it/100x45">
                   <label>Standard</label>
-                   <label class="">$56</label>
                   <button class="top_btn_1 blu">View Details</button>
                 </li>
                 <li>
                   <img src="https://placehold.it/100x45">
                   <label>Economy</label>
-                   <label class="">$210</label>
                   <button class="top_btn_1 blu">View Details</button>
                 </li>
               </ul>
@@ -303,8 +362,8 @@
 
         </div>
 
-    
-   
+
+
 
 </section>
 
@@ -390,10 +449,35 @@
      <script src="assets/js/bootstrap.min.js"></script>
  <script src="assets/js/bootstrap-datepicker.js"></script>
  <script src="assets/js/bootstrap-timepicker.js"></script>
- <script src="assets/js/main.js"></script>
+ <script src="assets/js/ion.rangeSlider.min.js"></script>
 
 
-
+        <script type='text/javascript'>
+        
+        $(document).ready(function() {
+        
+            $('.btn-toggle').click(function() {
+    $(this).find('.btn').toggleClass('active');  
+    
+    if ($(this).find('.btn-primary').size()>0) {
+      $(this).find('.btn').toggleClass('btn-primary');
+    }
+    if ($(this).find('.btn-danger').size()>0) {
+      $(this).find('.btn').toggleClass('btn-danger');
+    }
+    if ($(this).find('.btn-success').size()>0) {
+      $(this).find('.btn').toggleClass('btn-success');
+    }
+    if ($(this).find('.btn-info').size()>0) {
+      $(this).find('.btn').toggleClass('btn-info');
+    }
+    
+    $(this).find('.btn').toggleClass('btn-default');
+       
+});
+        
+        });
+        </script>
 
      <script>
   $('input.date-pick').datepicker('setDate', 'today');
@@ -402,8 +486,8 @@
     showInpunts: false
 });
    $(".numbers-row").append('<div class="inc button_inc h30">+</div><div class="dec button_inc h30">-</div>');
-    $(".button_inc").on("click", function() {
-
+    $(".button_inc").on("click", function(event) {
+    
         var $button = $(this);
         var oldValue = $button.parent().find("input").val();
 
@@ -418,6 +502,7 @@
             }
         }
         $button.parent().find("input").val(newVal);
+        return false;
     });
     $('.tooltip-1').tooltip({
     html: true
