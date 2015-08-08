@@ -27,3 +27,5 @@ this.imagePreview = function(){
 $(document).ready(function(){
 	imagePreview();
 });
+
+
