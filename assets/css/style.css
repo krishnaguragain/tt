@@ -969,9 +969,30 @@ label.tpblabel {
 
 
 
-
-
-
+.flight_listing {
+    margin-top: 30px;
+}
+.sn_flights {
+    margin-top: 15px;
+}
+.sn_flights h3{
+  margin: 0px;
+  padding: 0px;
+  font-weight: 700;
+}
+.sn_flights h5{
+  text-align: left;
+color: #080808;
+font-size: 14px;
+}
+.sn_flights p {text-align: left;}
+.sn_flights img{
+    float: left;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-right: 7px;
+}
 
 
 
